@@ -20,3 +20,10 @@ def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
 
+def test_calc_multiply_divide():
+    output = multiply_divide_numbers(3,2,3)
+    assert output == 2
+    
+def test_calc_divide_multiply():
+    output = divide_multiply_numbers(4,2,2)
+    assert output == 4
